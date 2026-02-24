@@ -1,0 +1,44 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega328P"</DEVICE>
+ <WORKING_DIR>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\PostLab3\PostLab3\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\PostLab3\PostLab3\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\m328Pdef.inc</FILE>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\PostLab3\PostLab3\Debug\PostLab3.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>PostLab3.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>PostLab3.map</FILE>
+  <FILE>PostLab3.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <d_10ms><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\PostLab3\PostLab3\main.asm</FILE><LINE>15</LINE></d_10ms>
+  <unidades><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\PostLab3\PostLab3\main.asm</FILE><LINE>16</LINE></unidades>
+  <dece><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\PostLab3\PostLab3\main.asm</FILE><LINE>17</LINE></dece>
+  <RESET><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\PostLab3\PostLab3\main.asm</FILE><LINE>26</LINE></RESET>
+  <TMR0><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\PostLab3\PostLab3\main.asm</FILE><LINE>88</LINE></TMR0>
+  <SETUP><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\PostLab3\PostLab3\main.asm</FILE><LINE>41</LINE></SETUP>
+  <Tabla_S7><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\PostLab3\PostLab3\main.asm</FILE><LINE>38</LINE></Tabla_S7>
+  <MAIN_LOOP><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\PostLab3\PostLab3\main.asm</FILE><LINE>85</LINE></MAIN_LOOP>
+  <SAVE_10><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\PostLab3\PostLab3\main.asm</FILE><LINE>133</LINE></SAVE_10>
+  <SAVE_UNIDADES><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\PostLab3\PostLab3\main.asm</FILE><LINE>129</LINE></SAVE_UNIDADES>
+  <SAVE_DEC><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\PostLab3\PostLab3\main.asm</FILE><LINE>125</LINE></SAVE_DEC>
+  <SHOW><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\PostLab3\PostLab3\main.asm</FILE><LINE>136</LINE></SHOW>
+  <SEG7_DECODE><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\PostLab3\PostLab3\main.asm</FILE><LINE>172</LINE></SEG7_DECODE>
+  <SEG7_show><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\PostLab3\PostLab3\main.asm</FILE><LINE>163</LINE></SEG7_show>
+  <delay><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\PostLab3\PostLab3\main.asm</FILE><LINE>189</LINE></delay>
+  <D1><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\PostLab3\PostLab3\main.asm</FILE><LINE>191</LINE></D1>
+  <D2><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\PostLab3\PostLab3\main.asm</FILE><LINE>193</LINE></D2>
+ </LABELS>
+</ASSEMBLER_INFO>
