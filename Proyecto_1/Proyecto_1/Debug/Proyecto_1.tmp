@@ -1,0 +1,252 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega328P"</DEVICE>
+ <WORKING_DIR>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\m328Pdef.inc</FILE>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\Debug\Proyecto_1.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>Proyecto_1.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>Proyecto_1.map</FILE>
+  <FILE>Proyecto_1.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <t_1s><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>17</LINE></t_1s>
+  <blinkL><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>20</LINE></blinkL>
+  <blinkH><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>21</LINE></blinkH>
+  <blink_500><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>22</LINE></blink_500>
+  <halfsec><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>23</LINE></halfsec>
+  <debounce_lock><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>26</LINE></debounce_lock>
+  <boton_last><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>29</LINE></boton_last>
+  <seg><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>32</LINE></seg>
+  <min_uni><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>33</LINE></min_uni>
+  <min_dec><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>34</LINE></min_dec>
+  <hora_uni><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>35</LINE></hora_uni>
+  <hora_dec><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>36</LINE></hora_dec>
+  <dia_uni><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>39</LINE></dia_uni>
+  <dia_dec><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>40</LINE></dia_dec>
+  <mes_uni><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>41</LINE></mes_uni>
+  <mes_dec><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>42</LINE></mes_dec>
+  <alarm_min_uni><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>45</LINE></alarm_min_uni>
+  <alarm_min_dec><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>46</LINE></alarm_min_dec>
+  <alarm_hora_uni><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>47</LINE></alarm_hora_uni>
+  <alarm_hora_dec><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>48</LINE></alarm_hora_dec>
+  <alarm_on><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>49</LINE></alarm_on>
+  <digito><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>52</LINE></digito>
+  <boton><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>55</LINE></boton>
+  <mode><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>56</LINE></mode>
+  <config_mode><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>59</LINE></config_mode>
+  <edit_pos><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>60</LINE></edit_pos>
+  <START><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>77</LINE></START>
+  <PINB_ISR><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>1381</LINE></PINB_ISR>
+  <TIMER0_ISR><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>1397</LINE></TIMER0_ISR>
+  <table_S7><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>73</LINE></table_S7>
+  <SETUP><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>86</LINE></SETUP>
+  <actualizar_leds_modo><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>243</LINE></actualizar_leds_modo>
+  <MAIN_LOOP><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>183</LINE></MAIN_LOOP>
+  <check_clk><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>220</LINE></check_clk>
+  <procesar_botones><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>198</LINE></procesar_botones>
+  <boton_config><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>290</LINE></boton_config>
+  <boton_modo><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>326</LINE></boton_modo>
+  <boton_inc><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>335</LINE></boton_inc>
+  <boton_dec><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>357</LINE></boton_dec>
+  <limpiar_bot><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>216</LINE></limpiar_bot>
+  <seguir_update><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>234</LINE></seguir_update>
+  <actualizar_clk><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>1183</LINE></actualizar_clk>
+  <revisar_alarma><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>1347</LINE></revisar_alarma>
+  <led_hora><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>264</LINE></led_hora>
+  <led_fecha><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>268</LINE></led_fecha>
+  <fin_leds><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>271</LINE></fin_leds>
+  <cambio_modo><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>278</LINE></cambio_modo>
+  <guardar_modo><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>284</LINE></guardar_modo>
+  <guardar_edit><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>299</LINE></guardar_edit>
+  <salir_config><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>310</LINE></salir_config>
+  <reset_blink_conf><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>314</LINE></reset_blink_conf>
+  <fin_boton_modo><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>331</LINE></fin_boton_modo>
+  <fin_boton_inc><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>353</LINE></fin_boton_inc>
+  <boton_inc_chk1><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>345</LINE></boton_inc_chk1>
+  <inc_hora><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>380</LINE></inc_hora>
+  <boton_inc_chk2><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>350</LINE></boton_inc_chk2>
+  <inc_fecha><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>550</LINE></inc_fecha>
+  <inc_alarma><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>684</LINE></inc_alarma>
+  <fin_boton_dec><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>375</LINE></fin_boton_dec>
+  <boton_dec_chk1><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>367</LINE></boton_dec_chk1>
+  <dec_hora><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>448</LINE></dec_hora>
+  <boton_dec_chk2><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>372</LINE></boton_dec_chk2>
+  <dec_fecha><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>611</LINE></dec_fecha>
+  <dec_alarma><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>752</LINE></dec_alarma>
+  <inc_hora_dec><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>392</LINE></inc_hora_dec>
+  <inc_hora_uni><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>403</LINE></inc_hora_uni>
+  <inc_min_dec><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>427</LINE></inc_min_dec>
+  <inc_min_uni><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>437</LINE></inc_min_uni>
+  <save_inc_hora_dec><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>398</LINE></save_inc_hora_dec>
+  <ajustar_hora_actual><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>536</LINE></ajustar_hora_actual>
+  <inc_hora_uni_normal><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>417</LINE></inc_hora_uni_normal>
+  <save_inc_hora_uni_24><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>413</LINE></save_inc_hora_uni_24>
+  <save_inc_hora_uni><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>423</LINE></save_inc_hora_uni>
+  <save_inc_min_dec><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>433</LINE></save_inc_min_dec>
+  <save_inc_min_uni><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>443</LINE></save_inc_min_uni>
+  <dec_hora_dec><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>460</LINE></dec_hora_dec>
+  <dec_hora_uni><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>475</LINE></dec_hora_uni>
+  <dec_min_dec><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>507</LINE></dec_min_dec>
+  <dec_min_uni><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>521</LINE></dec_min_uni>
+  <dec_hora_dec_normal><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>467</LINE></dec_hora_dec_normal>
+  <save_dec_hora_dec><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>470</LINE></save_dec_hora_dec>
+  <dec_hora_uni_normal><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>493</LINE></dec_hora_uni_normal>
+  <dec_hora_uni_24><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>486</LINE></dec_hora_uni_24>
+  <save_dec_hora_uni_24><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>489</LINE></save_dec_hora_uni_24>
+  <dec_hora_uni_norm2><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>500</LINE></dec_hora_uni_norm2>
+  <save_dec_hora_uni><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>503</LINE></save_dec_hora_uni>
+  <dec_min_dec_normal><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>514</LINE></dec_min_dec_normal>
+  <save_dec_min_dec><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>517</LINE></save_dec_min_dec>
+  <dec_min_uni_normal><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>528</LINE></dec_min_uni_normal>
+  <save_dec_min_uni><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>531</LINE></save_dec_min_uni>
+  <fin_ajustar_hora_actual><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>546</LINE></fin_ajustar_hora_actual>
+  <inc_dia_dec><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>562</LINE></inc_dia_dec>
+  <inc_dia_uni><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>574</LINE></inc_dia_uni>
+  <inc_mes_dec><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>586</LINE></inc_mes_dec>
+  <inc_mes_uni><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>598</LINE></inc_mes_uni>
+  <save_inc_dia_dec><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>569</LINE></save_inc_dia_dec>
+  <normalizar_fecha_inc><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>854</LINE></normalizar_fecha_inc>
+  <save_inc_dia_uni><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>581</LINE></save_inc_dia_uni>
+  <save_inc_mes_dec><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>593</LINE></save_inc_mes_dec>
+  <save_inc_mes_uni><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>605</LINE></save_inc_mes_uni>
+  <dec_dia_dec><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>623</LINE></dec_dia_dec>
+  <dec_dia_uni><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>638</LINE></dec_dia_uni>
+  <dec_mes_dec><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>653</LINE></dec_mes_dec>
+  <dec_mes_uni><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>668</LINE></dec_mes_uni>
+  <dec_dia_dec_normal><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>630</LINE></dec_dia_dec_normal>
+  <save_dec_dia_dec><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>633</LINE></save_dec_dia_dec>
+  <normalizar_fecha_dec><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>860</LINE></normalizar_fecha_dec>
+  <dec_dia_uni_normal><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>645</LINE></dec_dia_uni_normal>
+  <save_dec_dia_uni><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>648</LINE></save_dec_dia_uni>
+  <dec_mes_dec_normal><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>660</LINE></dec_mes_dec_normal>
+  <save_dec_mes_dec><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>663</LINE></save_dec_mes_dec>
+  <dec_mes_uni_normal><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>675</LINE></dec_mes_uni_normal>
+  <save_dec_mes_uni><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>678</LINE></save_dec_mes_uni>
+  <inc_alarm_hora_dec><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>696</LINE></inc_alarm_hora_dec>
+  <inc_alarm_hora_uni><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>707</LINE></inc_alarm_hora_uni>
+  <inc_alarm_min_dec><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>731</LINE></inc_alarm_min_dec>
+  <inc_alarm_min_uni><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>741</LINE></inc_alarm_min_uni>
+  <save_inc_alarm_hora_dec><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>702</LINE></save_inc_alarm_hora_dec>
+  <ajustar_hora_alarma><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>840</LINE></ajustar_hora_alarma>
+  <inc_alarm_hora_uni_normal><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>721</LINE></inc_alarm_hora_uni_normal>
+  <save_inc_alarm_hora_uni_24><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>717</LINE></save_inc_alarm_hora_uni_24>
+  <save_inc_alarm_hora_uni><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>727</LINE></save_inc_alarm_hora_uni>
+  <save_inc_alarm_min_dec><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>737</LINE></save_inc_alarm_min_dec>
+  <save_inc_alarm_min_uni><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>747</LINE></save_inc_alarm_min_uni>
+  <dec_alarm_hora_dec><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>764</LINE></dec_alarm_hora_dec>
+  <dec_alarm_hora_uni><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>779</LINE></dec_alarm_hora_uni>
+  <dec_alarm_min_dec><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>811</LINE></dec_alarm_min_dec>
+  <dec_alarm_min_uni><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>825</LINE></dec_alarm_min_uni>
+  <dec_alarm_hora_dec_normal><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>771</LINE></dec_alarm_hora_dec_normal>
+  <save_dec_alarm_hora_dec><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>774</LINE></save_dec_alarm_hora_dec>
+  <dec_alarm_hora_uni_normal><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>797</LINE></dec_alarm_hora_uni_normal>
+  <dec_alarm_hora_uni_24><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>790</LINE></dec_alarm_hora_uni_24>
+  <save_dec_alarm_hora_uni_24><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>793</LINE></save_dec_alarm_hora_uni_24>
+  <dec_alarm_hora_uni_norm2><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>804</LINE></dec_alarm_hora_uni_norm2>
+  <save_dec_alarm_hora_uni><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>807</LINE></save_dec_alarm_hora_uni>
+  <dec_alarm_min_dec_normal><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>818</LINE></dec_alarm_min_dec_normal>
+  <save_dec_alarm_min_dec><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>821</LINE></save_dec_alarm_min_dec>
+  <dec_alarm_min_uni_normal><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>832</LINE></dec_alarm_min_uni_normal>
+  <save_dec_alarm_min_uni><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>835</LINE></save_dec_alarm_min_uni>
+  <fin_ajustar_hora_alarma><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>850</LINE></fin_ajustar_hora_alarma>
+  <validar_mes_inc><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>866</LINE></validar_mes_inc>
+  <validar_dia_inc><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>922</LINE></validar_dia_inc>
+  <validar_mes_dec><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>894</LINE></validar_mes_dec>
+  <validar_dia_dec><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>982</LINE></validar_dia_dec>
+  <revisar_mes_inc_0><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>876</LINE></revisar_mes_inc_0>
+  <revisar_mes_inc_1><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>881</LINE></revisar_mes_inc_1>
+  <set_mes_01><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>886</LINE></set_mes_01>
+  <revisar_mes_dec_0><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>904</LINE></revisar_mes_dec_0>
+  <revisar_mes_dec_1><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>909</LINE></revisar_mes_dec_1>
+  <set_mes_12><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>914</LINE></set_mes_12>
+  <tipo_mes_inc><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>931</LINE></tipo_mes_inc>
+  <set_dia_01><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>972</LINE></set_dia_01>
+  <obtener_tipo_mes><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>1065</LINE></obtener_tipo_mes>
+  <validar_feb_inc><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>939</LINE></validar_feb_inc>
+  <validar_30_inc><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>950</LINE></validar_30_inc>
+  <validar_31_inc><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>961</LINE></validar_31_inc>
+  <fin_validar_dia_inc><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>978</LINE></fin_validar_dia_inc>
+  <tipo_mes_dec><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>991</LINE></tipo_mes_dec>
+  <poner_dia_max><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>1032</LINE></poner_dia_max>
+  <validar_feb_dec><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>999</LINE></validar_feb_dec>
+  <validar_30_dec><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>1010</LINE></validar_30_dec>
+  <validar_31_dec><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>1021</LINE></validar_31_dec>
+  <fin_validar_dia_dec><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>1061</LINE></fin_validar_dia_dec>
+  <set_28><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>1040</LINE></set_28>
+  <set_30><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>1047</LINE></set_30>
+  <set_31><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>1054</LINE></set_31>
+  <mes_grupo_0><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>1077</LINE></mes_grupo_0>
+  <mes_30><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>1094</LINE></mes_30>
+  <mes_28><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>1090</LINE></mes_28>
+  <mostrar_DH><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>1099</LINE></mostrar_DH>
+  <hora_DH><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>1107</LINE></hora_DH>
+  <fecha_DH><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>1111</LINE></fecha_DH>
+  <alarma_DH><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>1115</LINE></alarma_DH>
+  <mostrar_SEG><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>1178</LINE></mostrar_SEG>
+  <mostrar_UH><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>1119</LINE></mostrar_UH>
+  <hora_UH><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>1127</LINE></hora_UH>
+  <fecha_UH><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>1131</LINE></fecha_UH>
+  <alarma_UH><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>1135</LINE></alarma_UH>
+  <mostrar_DM><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>1139</LINE></mostrar_DM>
+  <hora_DM><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>1147</LINE></hora_DM>
+  <fecha_DM><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>1151</LINE></fecha_DM>
+  <alarma_DM><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>1155</LINE></alarma_DM>
+  <mostrar_UM><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>1159</LINE></mostrar_UM>
+  <hora_UM><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>1167</LINE></hora_UM>
+  <fecha_UM><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>1171</LINE></fecha_UM>
+  <alarma_UM><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>1175</LINE></alarma_UM>
+  <SEG7><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>1576</LINE></SEG7>
+  <guardar_sec><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>1190</LINE></guardar_sec>
+  <done_UPDATE><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>1250</LINE></done_UPDATE>
+  <guardar_MU><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>1201</LINE></guardar_MU>
+  <guardar_MD><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>1212</LINE></guardar_MD>
+  <guardar_HU><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>1223</LINE></guardar_HU>
+  <revisar_24><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>1237</LINE></revisar_24>
+  <guardar_HD><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>1234</LINE></guardar_HD>
+  <incrementar_fecha><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>1254</LINE></incrementar_fecha>
+  <guardar_dia_uni_auto><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>1267</LINE></guardar_dia_uni_auto>
+  <revisar_fecha_auto><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>1270</LINE></revisar_fecha_auto>
+  <revisar_feb_auto><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>1278</LINE></revisar_feb_auto>
+  <revisar_30_auto><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>1288</LINE></revisar_30_auto>
+  <revisar_31_auto><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>1298</LINE></revisar_31_auto>
+  <fin_fecha_auto><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>1343</LINE></fin_fecha_auto>
+  <reset_dia_mes_auto><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>1308</LINE></reset_dia_mes_auto>
+  <guardar_mes_uni_auto><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>1326</LINE></guardar_mes_uni_auto>
+  <revisar_mes_auto><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>1329</LINE></revisar_mes_auto>
+  <fin_revisar_alarma><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>1376</LINE></fin_revisar_alarma>
+  <dp_off><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>1417</LINE></dp_off>
+  <seguir_mux><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>1420</LINE></seguir_mux>
+  <show_decH><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>1439</LINE></show_decH>
+  <show_uniH><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>1455</LINE></show_uniH>
+  <show_decM><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>1471</LINE></show_decM>
+  <show_uniM><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>1487</LINE></show_uniM>
+  <en_d1><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>1447</LINE></en_d1>
+  <limpiar_d1><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>1451</LINE></limpiar_d1>
+  <siguiente_dig><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>1503</LINE></siguiente_dig>
+  <limpiar_segmentos><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>1566</LINE></limpiar_segmentos>
+  <en_d2><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>1463</LINE></en_d2>
+  <limpiar_d2><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>1467</LINE></limpiar_d2>
+  <en_d3><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>1479</LINE></en_d3>
+  <limpiar_d3><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>1483</LINE></limpiar_d3>
+  <en_d4><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>1495</LINE></en_d4>
+  <limpiar_d4><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>1499</LINE></limpiar_d4>
+  <current_dig><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>1509</LINE></current_dig>
+  <revisar_blink_alto><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>1522</LINE></revisar_blink_alto>
+  <done_ISR><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>1557</LINE></done_ISR>
+  <guardar_halfsec><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\Proyecto_1\Proyecto_1\main.asm</FILE><LINE>1554</LINE></guardar_halfsec>
+ </LABELS>
+</ASSEMBLER_INFO>

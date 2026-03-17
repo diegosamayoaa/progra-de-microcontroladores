@@ -1,0 +1,51 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega328P"</DEVICE>
+ <WORKING_DIR>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\ejemplo_FSM\ejemplo_FSM\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\ejemplo_FSM\ejemplo_FSM\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\m328Pdef.inc</FILE>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\ejemplo_FSM\ejemplo_FSM\Debug\ejemplo_FSM.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>ejemplo_FSM.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>ejemplo_FSM.map</FILE>
+  <FILE>ejemplo_FSM.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <START><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\ejemplo_FSM\ejemplo_FSM\main.asm</FILE><LINE>29</LINE></START>
+  <PIND_ISR><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\ejemplo_FSM\ejemplo_FSM\main.asm</FILE><LINE>158</LINE></PIND_ISR>
+  <TMR1_ISR><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\ejemplo_FSM\ejemplo_FSM\main.asm</FILE><LINE>205</LINE></TMR1_ISR>
+  <SETUP><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\ejemplo_FSM\ejemplo_FSM\main.asm</FILE><LINE>38</LINE></SETUP>
+  <INIT_TMR1><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\ejemplo_FSM\ejemplo_FSM\main.asm</FILE><LINE>146</LINE></INIT_TMR1>
+  <MAIN_LOOP><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\ejemplo_FSM\ejemplo_FSM\main.asm</FILE><LINE>90</LINE></MAIN_LOOP>
+  <INC_MODE><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\ejemplo_FSM\ejemplo_FSM\main.asm</FILE><LINE>104</LINE></INC_MODE>
+  <DEC_MODE><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\ejemplo_FSM\ejemplo_FSM\main.asm</FILE><LINE>114</LINE></DEC_MODE>
+  <AUTO_INC_MODE><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\ejemplo_FSM\ejemplo_FSM\main.asm</FILE><LINE>124</LINE></AUTO_INC_MODE>
+  <AUTO_DEC_MODE><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\ejemplo_FSM\ejemplo_FSM\main.asm</FILE><LINE>134</LINE></AUTO_DEC_MODE>
+  <EXIT_IM><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\ejemplo_FSM\ejemplo_FSM\main.asm</FILE><LINE>111</LINE></EXIT_IM>
+  <EXIT_DM><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\ejemplo_FSM\ejemplo_FSM\main.asm</FILE><LINE>121</LINE></EXIT_DM>
+  <EXIT_AIM><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\ejemplo_FSM\ejemplo_FSM\main.asm</FILE><LINE>131</LINE></EXIT_AIM>
+  <EXIT_ADM><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\ejemplo_FSM\ejemplo_FSM\main.asm</FILE><LINE>141</LINE></EXIT_ADM>
+  <EXIT_PIND_ISR><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\ejemplo_FSM\ejemplo_FSM\main.asm</FILE><LINE>200</LINE></EXIT_PIND_ISR>
+  <CONTINUAR><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\ejemplo_FSM\ejemplo_FSM\main.asm</FILE><LINE>171</LINE></CONTINUAR>
+  <INC_MODE_ISR><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\ejemplo_FSM\ejemplo_FSM\main.asm</FILE><LINE>182</LINE></INC_MODE_ISR>
+  <DEC_MODE_ISR><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\ejemplo_FSM\ejemplo_FSM\main.asm</FILE><LINE>188</LINE></DEC_MODE_ISR>
+  <AUTO_INC_MODE_ISR><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\ejemplo_FSM\ejemplo_FSM\main.asm</FILE><LINE>194</LINE></AUTO_INC_MODE_ISR>
+  <AUTO_DEC_MODE_ISR><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\ejemplo_FSM\ejemplo_FSM\main.asm</FILE><LINE>197</LINE></AUTO_DEC_MODE_ISR>
+  <EXIT_TMR1_ISR><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\ejemplo_FSM\ejemplo_FSM\main.asm</FILE><LINE>225</LINE></EXIT_TMR1_ISR>
+  <delay><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\ejemplo_FSM\ejemplo_FSM\main.asm</FILE><LINE>233</LINE></delay>
+  <DEL0><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\ejemplo_FSM\ejemplo_FSM\main.asm</FILE><LINE>235</LINE></DEL0>
+  <DEL1><FILE>C:\Users\diego\Documents\2026\Quinto Semestre\Progra de microcontroladores\progra_microcontroladores\ejemplo_FSM\ejemplo_FSM\main.asm</FILE><LINE>237</LINE></DEL1>
+ </LABELS>
+</ASSEMBLER_INFO>
