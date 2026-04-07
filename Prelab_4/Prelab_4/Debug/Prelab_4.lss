@@ -1,0 +1,214 @@
+
+Prelab_4.elf:     file format elf32-avr
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .data         00000000  00800100  00800100  00000152  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  1 .text         000000fe  00000000  00000000  00000054  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  2 .comment      00000030  00000000  00000000  00000152  2**0
+                  CONTENTS, READONLY
+  3 .note.gnu.avr.deviceinfo 00000040  00000000  00000000  00000184  2**2
+                  CONTENTS, READONLY
+  4 .debug_aranges 00000030  00000000  00000000  000001c4  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  5 .debug_info   000006fb  00000000  00000000  000001f4  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  6 .debug_abbrev 00000679  00000000  00000000  000008ef  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  7 .debug_line   00000276  00000000  00000000  00000f68  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  8 .debug_frame  00000044  00000000  00000000  000011e0  2**2
+                  CONTENTS, READONLY, DEBUGGING
+  9 .debug_str    00000390  00000000  00000000  00001224  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 10 .debug_loc    00000072  00000000  00000000  000015b4  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 11 .debug_ranges 00000020  00000000  00000000  00001626  2**0
+                  CONTENTS, READONLY, DEBUGGING
+
+Disassembly of section .text:
+
+00000000 <__vectors>:
+   0:	0c 94 34 00 	jmp	0x68	; 0x68 <__ctors_end>
+   4:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+   8:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+   c:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  10:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  14:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  18:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  1c:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  20:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  24:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  28:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  2c:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  30:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  34:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  38:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  3c:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  40:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  44:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  48:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  4c:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  50:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  54:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  58:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  5c:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  60:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  64:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+
+00000068 <__ctors_end>:
+  68:	11 24       	eor	r1, r1
+  6a:	1f be       	out	0x3f, r1	; 63
+  6c:	cf ef       	ldi	r28, 0xFF	; 255
+  6e:	d8 e0       	ldi	r29, 0x08	; 8
+  70:	de bf       	out	0x3e, r29	; 62
+  72:	cd bf       	out	0x3d, r28	; 61
+  74:	0e 94 66 00 	call	0xcc	; 0xcc <main>
+  78:	0c 94 7d 00 	jmp	0xfa	; 0xfa <_exit>
+
+0000007c <__bad_interrupt>:
+  7c:	0c 94 00 00 	jmp	0	; 0x0 <__vectors>
+
+00000080 <setup>:
+/****************************************/
+// NON-Interrupt subroutines
+void setup(void)
+{
+	// Desactivamos USART
+	UCSR0B = 0x00;
+  80:	10 92 c1 00 	sts	0x00C1, r1	; 0x8000c1 <__TEXT_REGION_LENGTH__+0x7f80c1>
+	//Configurar PORTD como salida
+	DDRD=0xFF;
+  84:	8f ef       	ldi	r24, 0xFF	; 255
+  86:	8a b9       	out	0x0a, r24	; 10
+	PORTD=0x00;
+  88:	1b b8       	out	0x0b, r1	; 11
+	
+	//Configurar PB0 y PB1 como entradas con pullup
+	DDRB &= ~((1 << PB0) | (1 << PB1));
+  8a:	84 b1       	in	r24, 0x04	; 4
+  8c:	8c 7f       	andi	r24, 0xFC	; 252
+  8e:	84 b9       	out	0x04, r24	; 4
+	PORTB |= (1 << PB0) | (1 << PB1);
+  90:	85 b1       	in	r24, 0x05	; 5
+  92:	83 60       	ori	r24, 0x03	; 3
+  94:	85 b9       	out	0x05, r24	; 5
+  96:	08 95       	ret
+
+00000098 <boton>:
+}
+
+uint8_t boton(uint8_t pin)
+{
+	//detectar botonazo 
+	if (!(PINB & (1 << pin)))
+  98:	23 b1       	in	r18, 0x03	; 3
+  9a:	30 e0       	ldi	r19, 0x00	; 0
+  9c:	08 2e       	mov	r0, r24
+  9e:	02 c0       	rjmp	.+4      	; 0xa4 <boton+0xc>
+  a0:	35 95       	asr	r19
+  a2:	27 95       	ror	r18
+  a4:	0a 94       	dec	r0
+  a6:	e2 f7       	brpl	.-8      	; 0xa0 <boton+0x8>
+  a8:	20 fd       	sbrc	r18, 0
+  aa:	0c c0       	rjmp	.+24     	; 0xc4 <boton+0x2c>
+	{
+		
+		if (!(PINB & (1 << pin)))
+  ac:	23 b1       	in	r18, 0x03	; 3
+  ae:	30 e0       	ldi	r19, 0x00	; 0
+  b0:	a9 01       	movw	r20, r18
+  b2:	02 c0       	rjmp	.+4      	; 0xb8 <boton+0x20>
+  b4:	55 95       	asr	r21
+  b6:	47 95       	ror	r20
+  b8:	8a 95       	dec	r24
+  ba:	e2 f7       	brpl	.-8      	; 0xb4 <boton+0x1c>
+  bc:	40 ff       	sbrs	r20, 0
+  be:	04 c0       	rjmp	.+8      	; 0xc8 <boton+0x30>
+		{
+			return 1;
+		}
+	}
+	return 0;
+  c0:	80 e0       	ldi	r24, 0x00	; 0
+  c2:	08 95       	ret
+  c4:	80 e0       	ldi	r24, 0x00	; 0
+  c6:	08 95       	ret
+	if (!(PINB & (1 << pin)))
+	{
+		
+		if (!(PINB & (1 << pin)))
+		{
+			return 1;
+  c8:	81 e0       	ldi	r24, 0x01	; 1
+		}
+	}
+	return 0;
+}
+  ca:	08 95       	ret
+
+000000cc <main>:
+// Main Function
+int main(void)
+{
+	uint8_t counter=0;
+	
+	setup();
+  cc:	0e 94 40 00 	call	0x80	; 0x80 <setup>
+	PORTD=counter;
+  d0:	1b b8       	out	0x0b, r1	; 11
+uint8_t boton(uint8_t pin);
+/****************************************/
+// Main Function
+int main(void)
+{
+	uint8_t counter=0;
+  d2:	c0 e0       	ldi	r28, 0x00	; 0
+	PORTD=counter;
+	
+    while (1) 
+    {
+		 // Incrementar con boton en PB0
+		 if (boton(PB0))
+  d4:	80 e0       	ldi	r24, 0x00	; 0
+  d6:	0e 94 4c 00 	call	0x98	; 0x98 <boton>
+  da:	88 23       	and	r24, r24
+  dc:	21 f0       	breq	.+8      	; 0xe6 <main+0x1a>
+		 {
+			 counter++;
+  de:	cf 5f       	subi	r28, 0xFF	; 255
+			 PORTD = counter;
+  e0:	cb b9       	out	0x0b, r28	; 11
+
+			 // revisar botonazo y esperar que suelte
+			 while (!(PINB & (1 << PB0)));
+  e2:	18 9b       	sbis	0x03, 0	; 3
+  e4:	fe cf       	rjmp	.-4      	; 0xe2 <main+0x16>
+			 
+		 }
+
+		 // Decrementar con boton en PB1
+		 if (boton(PB1))
+  e6:	81 e0       	ldi	r24, 0x01	; 1
+  e8:	0e 94 4c 00 	call	0x98	; 0x98 <boton>
+  ec:	88 23       	and	r24, r24
+  ee:	91 f3       	breq	.-28     	; 0xd4 <main+0x8>
+		 {
+			 counter--;
+  f0:	c1 50       	subi	r28, 0x01	; 1
+			 PORTD = counter;
+  f2:	cb b9       	out	0x0b, r28	; 11
+
+			 // revisar botonazo y esperar que suelte
+			 while (!(PINB & (1 << PB1)));
+  f4:	19 9b       	sbis	0x03, 1	; 3
+  f6:	fe cf       	rjmp	.-4      	; 0xf4 <main+0x28>
+  f8:	ed cf       	rjmp	.-38     	; 0xd4 <main+0x8>
+
+000000fa <_exit>:
+  fa:	f8 94       	cli
+
+000000fc <__stop_program>:
+  fc:	ff cf       	rjmp	.-2      	; 0xfc <__stop_program>
