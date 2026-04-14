@@ -8,7 +8,7 @@
 
 void initPWM1A(uint8_t invert, uint8_t modo, uint16_t prescaler)
 {
-	//CONFIGURAMOS COMO SALIDAS A PORTD6 . OCR0A = PD6
+
 	DDRB |= (1<<DDB1);
 	
 	TCCR1A = 0;
