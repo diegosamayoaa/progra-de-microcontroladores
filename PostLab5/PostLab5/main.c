@@ -1,3 +1,11 @@
+/*
+ * main.c
+ *
+ * Created: 19/4/26
+ * Author: Diego Samayoa
+ * Description: Dos servos y un led controlados por medio de tres potenciometros, todo hecho con librerias.
+ */
+/****************************************/
 #define F_CPU 16000000UL
 
 #include <avr/io.h>
@@ -16,9 +24,9 @@ static uint8_t ADC_LED(uint16_t adc_value);
 
 int main(void)
 {
-	uint16_t pot_servo_a; //variables valores de los potenciometros (0-1023)
-	uint16_t pot_servo_b;
-	uint16_t pot_led_pwm;
+	uint16_t pot_a; //variables valores de los potenciometros (0-1023)
+	uint16_t pot_b;
+	uint16_t pot_c;
 
 	ADC_Init();
 	PWM1_Init();//servo 1
@@ -27,16 +35,16 @@ int main(void)
 
 	while (1)
 	{
-		pot_servo_a = ADC_Read(4);//Leer a4 y convertir valor a angulo
-		Servo1_SetAngle(ADC_Angle(pot_servo_a));
-		_delay_ms(5);//estabilidad cambio
-
-		pot_servo_b = ADC_Read(5);//otro servo
-		Servo2_SetAngle(ADC_Angle(pot_servo_b));
+		pot_a = ADC_Read(4);//Leer a4
+		Servo1_SetAngle(ADC_Angle(pot_a));
 		_delay_ms(5);
 
-		pot_led_pwm = ADC_Read(6);//Leer a6 y convertir a porcentaje para el brillo
-		ManualPWM_SetDuty(ADC_LED(pot_led_pwm));
+		pot_b = ADC_Read(5);//leer A5
+		Servo2_SetAngle(ADC_Angle(pot_b));
+		_delay_ms(5);
+
+		pot_c = ADC_Read(6);//Leer a6
+		ManualPWM_SetDuty(ADC_LED(pot_c));
 		_delay_ms(5);
 	}
 }
