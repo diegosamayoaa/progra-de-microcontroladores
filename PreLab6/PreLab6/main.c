@@ -26,18 +26,26 @@ int main(void)
 {
 	UART_init();
 
-	DDRB = 0xFF; // LEDs en el puerto B
+	DDRB = 0b00111111; // PB0–PB5 como salida
+	DDRC = 0b00000011; // PC0–PC1 como salida
+
+	uint8_t dato;
 
 	while (1)
 	{
-		UART_tx('D'); //Mandamos la letra D
+		UART_tx('D'); // Mandamos la letra D
 
 		for (volatile long i = 0; i < 500000; i++);
 
-		PORTB = UART_rx(); //Mostramos en los leds del puerto B el binario del caracter que enviamos
+		dato = UART_rx(); // Guardamos el dato recibido
+
+		// Bits 0–5 ? PORTB
+		PORTB = (dato & 0b00111111);
+
+		// Bits 6–7 ? PORTC (movidos a posición 0 y 1)
+		PORTC = (dato >> 6);
 	}
 }
-
 /****************************************/
 // NON-Interrupt subroutines
 

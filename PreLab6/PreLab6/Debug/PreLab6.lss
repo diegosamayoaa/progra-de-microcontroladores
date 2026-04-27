@@ -3,29 +3,29 @@ PreLab6.elf:     file format elf32-avr
 
 Sections:
 Idx Name          Size      VMA       LMA       File off  Algn
-  0 .data         00000000  00800100  00800100  00000160  2**0
+  0 .data         00000000  00800100  00800100  00000172  2**0
                   CONTENTS, ALLOC, LOAD, DATA
-  1 .text         0000010c  00000000  00000000  00000054  2**1
+  1 .text         0000011e  00000000  00000000  00000054  2**1
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
-  2 .comment      00000030  00000000  00000000  00000160  2**0
+  2 .comment      00000030  00000000  00000000  00000172  2**0
                   CONTENTS, READONLY
-  3 .note.gnu.avr.deviceinfo 00000040  00000000  00000000  00000190  2**2
+  3 .note.gnu.avr.deviceinfo 00000040  00000000  00000000  000001a4  2**2
                   CONTENTS, READONLY
-  4 .debug_aranges 00000038  00000000  00000000  000001d0  2**0
+  4 .debug_aranges 00000038  00000000  00000000  000001e4  2**0
                   CONTENTS, READONLY, DEBUGGING
-  5 .debug_info   00000725  00000000  00000000  00000208  2**0
+  5 .debug_info   00000734  00000000  00000000  0000021c  2**0
                   CONTENTS, READONLY, DEBUGGING
-  6 .debug_abbrev 0000069a  00000000  00000000  0000092d  2**0
+  6 .debug_abbrev 000006a9  00000000  00000000  00000950  2**0
                   CONTENTS, READONLY, DEBUGGING
-  7 .debug_line   00000278  00000000  00000000  00000fc7  2**0
+  7 .debug_line   0000028b  00000000  00000000  00000ff9  2**0
                   CONTENTS, READONLY, DEBUGGING
-  8 .debug_frame  00000064  00000000  00000000  00001240  2**2
+  8 .debug_frame  00000064  00000000  00000000  00001284  2**2
                   CONTENTS, READONLY, DEBUGGING
-  9 .debug_str    00000399  00000000  00000000  000012a4  2**0
+  9 .debug_str    0000039e  00000000  00000000  000012e8  2**0
                   CONTENTS, READONLY, DEBUGGING
- 10 .debug_loc    00000048  00000000  00000000  0000163d  2**0
+ 10 .debug_loc    0000005b  00000000  00000000  00001686  2**0
                   CONTENTS, READONLY, DEBUGGING
- 11 .debug_ranges 00000028  00000000  00000000  00001685  2**0
+ 11 .debug_ranges 00000028  00000000  00000000  000016e1  2**0
                   CONTENTS, READONLY, DEBUGGING
 
 Disassembly of section .text:
@@ -66,7 +66,7 @@ Disassembly of section .text:
   70:	de bf       	out	0x3e, r29	; 62
   72:	cd bf       	out	0x3d, r28	; 61
   74:	0e 94 5a 00 	call	0xb4	; 0xb4 <main>
-  78:	0c 94 84 00 	jmp	0x108	; 0x108 <_exit>
+  78:	0c 94 8d 00 	jmp	0x11a	; 0x11a <_exit>
 
 0000007c <__bad_interrupt>:
   7c:	0c 94 00 00 	jmp	0	; 0x0 <__vectors>
@@ -143,51 +143,69 @@ int main(void)
 	UART_init();
   c0:	0e 94 40 00 	call	0x80	; 0x80 <UART_init>
 
-	DDRB = 0xFF; // LEDs en el puerto B
-  c4:	8f ef       	ldi	r24, 0xFF	; 255
+	DDRB = 0b00111111; // PB0–PB5 como salida
+  c4:	8f e3       	ldi	r24, 0x3F	; 63
   c6:	84 b9       	out	0x04, r24	; 4
+	DDRC = 0b00000011; // PC0–PC1 como salida
+  c8:	83 e0       	ldi	r24, 0x03	; 3
+  ca:	87 b9       	out	0x07, r24	; 7
+
+	uint8_t dato;
 
 	while (1)
 	{
-		UART_tx('D'); //Mandamos la letra D
-  c8:	84 e4       	ldi	r24, 0x44	; 68
-  ca:	0e 94 4c 00 	call	0x98	; 0x98 <UART_tx>
+		UART_tx('D'); // Mandamos la letra D
+  cc:	84 e4       	ldi	r24, 0x44	; 68
+  ce:	0e 94 4c 00 	call	0x98	; 0x98 <UART_tx>
 
 		for (volatile long i = 0; i < 500000; i++);
-  ce:	19 82       	std	Y+1, r1	; 0x01
-  d0:	1a 82       	std	Y+2, r1	; 0x02
-  d2:	1b 82       	std	Y+3, r1	; 0x03
-  d4:	1c 82       	std	Y+4, r1	; 0x04
-  d6:	0b c0       	rjmp	.+22     	; 0xee <main+0x3a>
-  d8:	89 81       	ldd	r24, Y+1	; 0x01
-  da:	9a 81       	ldd	r25, Y+2	; 0x02
-  dc:	ab 81       	ldd	r26, Y+3	; 0x03
-  de:	bc 81       	ldd	r27, Y+4	; 0x04
-  e0:	01 96       	adiw	r24, 0x01	; 1
-  e2:	a1 1d       	adc	r26, r1
-  e4:	b1 1d       	adc	r27, r1
-  e6:	89 83       	std	Y+1, r24	; 0x01
-  e8:	9a 83       	std	Y+2, r25	; 0x02
-  ea:	ab 83       	std	Y+3, r26	; 0x03
-  ec:	bc 83       	std	Y+4, r27	; 0x04
-  ee:	89 81       	ldd	r24, Y+1	; 0x01
-  f0:	9a 81       	ldd	r25, Y+2	; 0x02
-  f2:	ab 81       	ldd	r26, Y+3	; 0x03
-  f4:	bc 81       	ldd	r27, Y+4	; 0x04
-  f6:	80 32       	cpi	r24, 0x20	; 32
-  f8:	91 4a       	sbci	r25, 0xA1	; 161
-  fa:	a7 40       	sbci	r26, 0x07	; 7
-  fc:	b1 05       	cpc	r27, r1
-  fe:	64 f3       	brlt	.-40     	; 0xd8 <main+0x24>
+  d2:	19 82       	std	Y+1, r1	; 0x01
+  d4:	1a 82       	std	Y+2, r1	; 0x02
+  d6:	1b 82       	std	Y+3, r1	; 0x03
+  d8:	1c 82       	std	Y+4, r1	; 0x04
+  da:	0b c0       	rjmp	.+22     	; 0xf2 <main+0x3e>
+  dc:	89 81       	ldd	r24, Y+1	; 0x01
+  de:	9a 81       	ldd	r25, Y+2	; 0x02
+  e0:	ab 81       	ldd	r26, Y+3	; 0x03
+  e2:	bc 81       	ldd	r27, Y+4	; 0x04
+  e4:	01 96       	adiw	r24, 0x01	; 1
+  e6:	a1 1d       	adc	r26, r1
+  e8:	b1 1d       	adc	r27, r1
+  ea:	89 83       	std	Y+1, r24	; 0x01
+  ec:	9a 83       	std	Y+2, r25	; 0x02
+  ee:	ab 83       	std	Y+3, r26	; 0x03
+  f0:	bc 83       	std	Y+4, r27	; 0x04
+  f2:	89 81       	ldd	r24, Y+1	; 0x01
+  f4:	9a 81       	ldd	r25, Y+2	; 0x02
+  f6:	ab 81       	ldd	r26, Y+3	; 0x03
+  f8:	bc 81       	ldd	r27, Y+4	; 0x04
+  fa:	80 32       	cpi	r24, 0x20	; 32
+  fc:	91 4a       	sbci	r25, 0xA1	; 161
+  fe:	a7 40       	sbci	r26, 0x07	; 7
+ 100:	b1 05       	cpc	r27, r1
+ 102:	64 f3       	brlt	.-40     	; 0xdc <main+0x28>
 
-		PORTB = UART_rx(); //Mostramos en los leds del puerto B el binario del caracter que enviamos
- 100:	0e 94 53 00 	call	0xa6	; 0xa6 <UART_rx>
- 104:	85 b9       	out	0x05, r24	; 5
+		dato = UART_rx(); // Guardamos el dato recibido
+ 104:	0e 94 53 00 	call	0xa6	; 0xa6 <UART_rx>
+
+		// Bits 0–5 ? PORTB
+		PORTB = (dato & 0b00111111);
+ 108:	98 2f       	mov	r25, r24
+ 10a:	9f 73       	andi	r25, 0x3F	; 63
+ 10c:	95 b9       	out	0x05, r25	; 5
+
+		// Bits 6–7 ? PORTC (movidos a posición 0 y 1)
+		PORTC = (dato >> 6);
+ 10e:	82 95       	swap	r24
+ 110:	86 95       	lsr	r24
+ 112:	86 95       	lsr	r24
+ 114:	83 70       	andi	r24, 0x03	; 3
+ 116:	88 b9       	out	0x08, r24	; 8
 	}
- 106:	e0 cf       	rjmp	.-64     	; 0xc8 <main+0x14>
+ 118:	d9 cf       	rjmp	.-78     	; 0xcc <main+0x18>
 
-00000108 <_exit>:
- 108:	f8 94       	cli
+0000011a <_exit>:
+ 11a:	f8 94       	cli
 
-0000010a <__stop_program>:
- 10a:	ff cf       	rjmp	.-2      	; 0x10a <__stop_program>
+0000011c <__stop_program>:
+ 11c:	ff cf       	rjmp	.-2      	; 0x11c <__stop_program>
